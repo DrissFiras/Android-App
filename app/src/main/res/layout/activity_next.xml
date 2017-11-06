@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@drawable/aze">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Choose your interests:"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:textColor="#ffffff"
+
+    android:id="@+id/textView"
+    android:layout_marginLeft="25dp"
+
+    android:layout_marginTop="50dp"/>
+
+
+    <CheckBox
+        android:text="Sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sport"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <CheckBox
+    android:text="Theatre"
+    android:layout_marginLeft="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Theatre"
+    android:layout_marginTop="15dp"
+    android:textColor="#ffffff"
+    />
+<CheckBox
+    android:text="Entertainment"
+    android:textColor="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Entertainment"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="10dp"/>
+<CheckBox
+    android:text="Music"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Music"
+    android:layout_marginTop="10dp"
+    />
+<CheckBox
+    android:text="Culture"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Culture"
+    android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:text="Cinema"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cinema"
+        android:layout_marginTop="10dp"/>
+
+    <CheckBox
+        android:text="Other"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Other"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <Switch
+    android:text="Enable Notifications"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/switch1"
+    android:layout_marginTop="60dp"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"/>
+
+<Button
+    android:text="Submit"
+    android:layout_width="191dp"
+    android:layout_height="40dp"
+    android:id="@+id/submit"
+    android:layout_gravity="center"
+    android:textColor="#ffffff"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/buttonshape"/>
+
+
+</LinearLayout>

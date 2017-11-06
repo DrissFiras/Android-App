@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CrewOut</string>
+    <string name="facebook_app_id">1185239371514211</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="spinner_title">AndroidSpinnerExample</string>
+    <string name="title_activity_marker">Map</string>
+    <string name="title_activity_new_marker">Map</string>
+</resources>

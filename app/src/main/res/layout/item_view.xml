@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/buttonshape"
+   >
+
+    <TextView android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Title: "
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"
+
+        android:textColor="#ffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Saisie title"
+        android:textColor="#ffff"
+        android:layout_marginLeft="160dp"
+        android:textSize="20dp"
+        android:id="@+id/item_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type :"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="35dp"
+        android:textSize="17dp"
+        android:textColor="#ffff"
+        android:id="@+id/textView3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffff"
+        android:textSize="17dp"
+        android:text="Type"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/item_type"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publisher :"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="65dp"
+        android:textSize="17dp"
+        android:textColor="#ffff"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saisrPublisher"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="160dp"
+
+        android:textSize="17dp"
+        android:textColor="#ffff"
+        android:id="@+id/item_publisher"
+        android:layout_marginBottom="10dp"/>
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/avatar"
+        android:background="@drawable/ff"
+
+        />
+
+
+
+</RelativeLayout>

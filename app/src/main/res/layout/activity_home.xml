@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/u"
+    tools:context="com.example.yasmine.myapp1.Home">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#022c40"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="90dp"
+        android:text="Welcome Firas !"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:id="@+id/textView6" />
+
+    <ListView
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_height="500dp"
+        android:id="@+id/listview"
+        android:layout_alignParentTop="true"
+        android:dividerHeight="8dp"
+        android:headerDividersEnabled="true"
+        android:footerDividersEnabled="true"
+        android:animateLayoutChanges="false"
+        android:alwaysDrawnWithCache="false" />
+
+    <ImageView
+        android:layout_marginLeft="8dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/man2"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView2" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/plus"
+        android:background="@drawable/more1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#fff"/>
+
+
+</RelativeLayout>
